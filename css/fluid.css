@@ -1,0 +1,19 @@
+.bg-image {
+    background-image: url('../images/lion.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.bird {
+    /* position: absolute;
+    top: 50px;
+    left: 150px; */
+    transform: translate(45%, 10%);
+    height: 100px;
+}
