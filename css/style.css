@@ -1,7 +1,79 @@
 .container {
-    max-width: 1170px;
-    width: 80%;
-    height: 400px;
-    background-color: lightgray;
+    width: 1184px;
+    height: 113px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-right {
+    display: flex;
+}
+.ul-element {
+    display: flex;
+    width: 428px;
+    justify-content: space-between;
+    margin-right: 40px; 
+}
+.log-in-sign-up {
+    width: 220px;
+    height: 49px;
+    display: flex;
+}
+.log-in {
+    width: 105px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 20px; 
+}
+.sign-up {
+    width: 115px;
+    height: 49px;
+    background-color: #6B77E5;
+    color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.box-1 {
+    border: 1px black solid;
+    width: 1184px;
+    height: 606px;
+    margin: 20px;
+}
+.box-2 {
+    border: 1px black solid;
+    width: 1184px;
+    height: 867px;
+    margin: 20px;
+}
+.box-3 {
+    border: 1px black solid;
+    width: 1312px;
+    height: 825px;
+    margin: 20px;
+}
+.box-4 {
+    border: 1px black solid;
+    width: 1312px;
+    height: 871px;
+    margin: 20px;
+}
+.footer-container {
+    width: 1184px;
+    height: 834px;
+}
+.footer-right-container {
+    width: 400px;
+    height: 259px;
+}
+.footer-left-container {
+    width: 560px;
+    height: 306px;
 }
