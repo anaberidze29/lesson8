@@ -1,4 +1,4 @@
-.container-1 {
+.header {
     width: 1184px;
     height: 113px;
     margin: 0 auto;
@@ -13,7 +13,9 @@
     display: flex;
     width: 428px;
     justify-content: space-between;
-    margin-right: 40px; 
+    margin-right: 40px;
+    color: #222831;
+    color: #19182580;
 }
 .log-in-sign-up {
     width: 220px;
@@ -41,7 +43,7 @@
     font-weight: 700;
     line-height: 20px;
 }
-.container-2 {
+.container {
     display: flex;
 }
 .left-element {
@@ -54,6 +56,7 @@
 .right-element {
     max-width: 441px;
     width: 100%;
+    margin: 64px;
 }
 .box {
     width: 204.5px;
@@ -69,10 +72,71 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+.text-4 {
+    width: 441px;
+    height: 28px;
+    font-family: Abel;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #F85E9F;
+    margin-top: 24px;
+}
+.text-3 {
+    width: 441px;
+    height: 106px;
+    font-family: Abel;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.8px;
+    text-align: left;
+    color: #191825;
+    margin-top: 24px;
+}
+.text-para {
+    width: 441px;
+    height: 87px;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #19182580;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.text-s {
+    width: 84px;
+    height: 42px;
+    font-family: Circular Std;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    color: #FF5722;
+    margin: 10px;
+}
+.container-2 {
+    flex-direction: column;
+}
+.top-element {
+    max-width: 1312px;
+    width: 100%;
+}
+.bottom-element {
+    max-width: 1312px;
+    width: 100%;
+}
+.fa-regular {
+    border-radius: 32px;
+    background-color: #FF5722;
+}
 .footer-container {
     width: 1184px;
     height: 834px;
+    display: flex;
 }
 .footer-right-container {
     width: 400px;
@@ -82,14 +146,18 @@
     width: 560px;
     height: 306px;
 }
+
 @media (max-width: 1024px) {
-    .container-2 {
+    .container {
         /* flex-direction: column;
         align-items: center; */
         flex-wrap: wrap;
         /* justify-content: center; */
     }
     .right-element {
+        text-align: center;
+    }
+    .container-2 {
         text-align: center;
     }
 }
