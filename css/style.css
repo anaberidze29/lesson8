@@ -317,7 +317,7 @@
 @media (max-width: 430px) {
     .right-element {
         text-align: center;
-        margin: 0 auto;
+
     }
     .boxes {
         flex-direction: column;
